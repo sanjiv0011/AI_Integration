@@ -4,7 +4,7 @@
 <suite name="Suite" parallel="none" thread-count="1">
 
 	<listeners>
-		<listener class-name="com.jkl.utilities.ExtentReport"></listener>
+		<listener class-name="com.leonardoAI.utilities.ExtentReport"></listener>
 	</listeners>
 
 	<parameter name="browser" value="chrome"></parameter><!-- value is only
