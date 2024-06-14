@@ -16,7 +16,6 @@ import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
 import com.github.javafaker.Faker;
-import com.leonardoAI.Main.pageObject.PO_Main_HomePage;
 import com.leonardoAI.pageObject.PO_HomePage;
 import com.leonardoAI.pageObject.PO_LoginPage;
 import com.leonardoAI.utilities.CustomizedChromeOptions;
@@ -29,7 +28,6 @@ public class BaseClass {
 	public static WebDriver driver;
 	public PO_HomePage hp;
 	public PO_LoginPage lp;
-	public PO_Main_HomePage m_hp;
 	public SoftAssert softAssert = new SoftAssert();
 	public CustomizedChromeOptions cco = new CustomizedChromeOptions();
 
@@ -68,7 +66,7 @@ public class BaseClass {
 			// logger.info("2");
 
 			// TO INITIALIZE CHROME DRIVER
-			driver = new ChromeDriver(cco.customizedChromeOptions(true, false, false, true, 9222));
+			driver = new ChromeDriver(cco.customizedChromeOptions(true, true, false, true, 9222));
 
 			logger.info("Chrome driver selected");
 		} else if (br.equalsIgnoreCase("firefox")) {
@@ -96,11 +94,7 @@ public class BaseClass {
 	@Parameters("loginUserType")
 	@BeforeClass()
 	public void Login(String loginUserType) throws InterruptedException {
-		if (loginUserType.equalsIgnoreCase("admin")) {
-			lp = new PO_LoginPage(driver);
-			logger.info("Login user Email: " + adminEmail + " and Password: " + adminPassword);
-			m_hp = lp.AdminLogin(adminEmail, adminPassword);
-		} else if (loginUserType.equalsIgnoreCase("user")) {
+		 if (loginUserType.equalsIgnoreCase("user")) {
 			lp = new PO_LoginPage(driver);
 			logger.info("Login user Email: " + userEmail + " and Password: " + userPassword);
 			hp = lp.Login(userEmail, userPassword);
@@ -111,9 +105,7 @@ public class BaseClass {
 	@Parameters("loginUserType")
 	@AfterTest()
 	public void Logout(String loginUserType) throws InterruptedException {
-		if (loginUserType.equalsIgnoreCase("admin")) {
-			m_hp.AdminLogout();
-		} else if (loginUserType.equalsIgnoreCase("user")) {
+		if (loginUserType.equalsIgnoreCase("user")) {
 			hp.UserLogout();
 		}
 	}

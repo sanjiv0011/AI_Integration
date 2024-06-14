@@ -1,255 +1,181 @@
-12:48:43.502 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Base class started...
-12:48:43.580 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-12:48:43.581 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-12:48:45.700 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Chrome driver selected
-12:48:46.466 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login page started
-12:48:46.499 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Maximize the window
-12:48:46.699 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-12:48:46.700 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-12:48:49.939 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-12:48:52.956 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Caller methods name: test_AddAssetCategory
-12:48:53.076 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Is Displeyed and Clicked on the button add : true
-12:48:54.085 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - isClickedOnAddOrEditButton: true
-12:48:54.737 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryName
-12:48:55.408 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryCode
-12:48:56.750 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryDescription
-12:48:56.751 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentTypesNumber: [I@58f2466c
-12:48:56.752 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 1
-12:48:56.753 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[1]
-12:48:56.853 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 1
-12:48:57.262 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 2
-12:48:57.266 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[2]
-12:48:57.337 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 2
-12:48:57.751 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 3
-12:48:57.760 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[3]
-12:48:57.819 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 3
-12:48:58.223 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Waiting for the 15 seconds pls check add the image
-12:49:06.342 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the button save
-12:49:07.862 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 82
-12:49:07.863 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-12:49:07.894 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: AssetCategory already exists.
-12:49:07.894 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Alert Message: AssetCategory already exists.
-12:49:10.548 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-12:49:13.696 [main] INFO  com.jkl.pageObject.PO_HomePage - Logout Exception: element click intercepted: Element <div class="flex items-center gap-2">...</div> is not clickable at point (1813, 34). Other element would receive the click: <div class="max-w-[90%] heading-22">...</div>
-  (Session info: chrome=125.0.6422.142)
+11:33:06.739 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+11:33:06.859 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+11:33:06.860 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+11:33:09.656 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+11:33:11.960 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+11:33:12.007 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+11:33:12.130 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+11:33:12.132 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+11:33:12.147 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+11:33:12.160 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
+11:33:12.291 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
+11:33:13.329 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
+11:33:13.340 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
+11:33:13.340 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
+11:33:13.901 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
+11:33:14.606 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
+11:33:14.974 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
+11:33:15.210 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
+11:33:46.731 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: Expected condition failed: waiting for text ('Get Started Here') to be the value of element [[ChromeDriver: chrome on any (d2034a4141ed3dc1ca0772dc67ecb073)] -> xpath: //h1[contains(@class,'chakra-heading')]] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5835f5afc19f21c51866a423e3c1e959, clickElement {id=f.546379E84CEE61DE9FDB9ED65A9F1499.d.D223AAA289C5CAF93C23B039001D8E31.e.13355}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on any (5835f5afc19f21c51866a423e3c1e959)] -> xpath: //div[@class='flex items-center gap-2']]
-Session ID: 5835f5afc19f21c51866a423e3c1e959
-12:52:10.450 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Base class started...
-12:52:10.498 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-12:52:10.498 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-12:52:12.764 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Chrome driver selected
-12:52:13.526 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login page started
-12:52:13.580 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Maximize the window
-12:52:13.787 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-12:52:13.787 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-12:52:17.027 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-12:52:20.043 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Caller methods name: test_AddAssetCategory
-12:52:20.202 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Is Displeyed and Clicked on the button add : true
-12:52:21.207 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - isClickedOnAddOrEditButton: true
-12:52:21.910 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryName
-12:52:22.547 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryCode
-12:52:23.682 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryDescription
-12:52:23.683 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentTypesNumber: [I@11d2dd2d
-12:52:23.685 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 1
-12:52:23.686 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[1]
-12:52:23.940 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 1
-12:52:24.355 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 2
-12:52:24.355 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[2]
-12:52:24.413 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 2
-12:52:24.820 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 3
-12:52:24.820 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[3]
-12:52:24.878 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 3
-12:52:25.280 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Waiting for the 15 seconds pls check add the image
-12:52:33.407 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the button save
-12:52:34.818 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 86
-12:52:34.819 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-12:52:34.840 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: AssetCategory already exists.
-12:52:34.840 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Alert Message: AssetCategory already exists.
-12:52:34.934 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the cancel button 1
-12:52:38.077 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-12:52:41.092 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Caller methods name: test_EditAssetCategory
-12:52:41.501 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Monitor
-12:52:43.541 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findAssetCategoryFromRowListAndClickOnThreeDot
-12:52:43.542 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-12:52:43.543 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-12:52:44.132 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: M
-12:52:44.133 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Monitor
-12:52:44.135 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given confirmationGiverValue not matched: Monitor
-12:52:44.347 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - listRowCount: -1
-12:52:44.348 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Item found in row number: -1
-12:52:44.349 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - isClickedOnAddOrEditButton: false
-12:52:44.361 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-12:52:48.469 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-12:52:50.632 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-12:52:52.754 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the btnYes
-12:52:53.337 [main] INFO  com.jkl.pageObject.PO_HomePage - ... LOGOUT DONE ...
-12:52:53.407 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Driver shutdown
-12:57:17.769 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Base class started...
-12:57:17.806 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-12:57:17.807 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-12:57:20.040 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Chrome driver selected
-12:57:21.000 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login page started
-12:57:21.110 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Maximize the window
-12:57:21.454 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-12:57:21.455 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-12:57:24.748 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-12:57:27.778 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Caller methods name: test_AddAssetCategory
-12:57:27.924 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Is Displeyed and Clicked on the button add : true
-12:57:28.940 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - isClickedOnAddOrEditButton: true
-12:57:29.642 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryName
-12:57:30.315 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryCode
-12:57:31.539 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryDescription
-12:57:31.539 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentTypesNumber: [I@11d2dd2d
-12:57:31.540 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 1
-12:57:31.540 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[1]
-12:57:31.608 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 1
-12:57:32.018 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 2
-12:57:32.019 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[2]
-12:57:32.115 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 2
-12:57:32.517 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 3
-12:57:32.517 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[3]
-12:57:32.575 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 3
-12:57:32.982 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Waiting for the 15 seconds pls check add the image
-12:57:41.101 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the button save
-12:57:42.508 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 84
-12:57:42.510 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-12:57:42.530 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: AssetCategory already exists.
-12:57:42.530 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Alert Message: AssetCategory already exists.
-12:57:42.615 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the cancel button 1
-12:57:45.753 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-12:57:48.770 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Caller methods name: test_EditAssetCategory
-12:57:49.218 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Monitor
-12:57:51.262 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findAssetCategoryFromRowListAndClickOnThreeDot
-12:57:51.264 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-12:57:51.268 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-12:57:51.865 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Monitor
-12:57:51.866 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Monitor
-12:57:51.868 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-12:57:51.869 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Pointer_Address: (//div[contains(@class,'flex flex-col gap-2 items-center')]//div[contains(@class,'neu-more-v')])[1]
-12:57:51.914 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given value matched with the list value: Monitor
-12:57:51.960 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Clicked on the three dot option button
-12:57:52.171 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - listRowCount: 1
-12:57:52.171 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Item found in row number: 1
-12:57:52.179 [main] INFO  com.jkl.actions.Action_Archive - Action_Edit caller method name: addOrEditAssetCategory
-12:57:52.770 [main] INFO  com.jkl.actions.Action_Archive - Is edit button displayed and enabled: true
-12:57:52.771 [main] INFO  com.jkl.actions.Action_Archive - btnEdit_address:- (//*[contains(normalize-space(text()),'Edit')])[1]
-12:57:52.906 [main] INFO  com.jkl.actions.Action_Archive - rowListCount: 1
-12:57:53.242 [main] INFO  com.jkl.actions.Action_Archive - Clicked on the Edit action button present under three dots
-12:57:54.251 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - isClickedOnAddOrEditButton: true
-12:57:54.902 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryName
-12:57:55.593 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryCode
-12:57:56.399 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryDescription
-12:57:56.400 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentTypesNumber: [I@11d2dd2d
-12:57:56.401 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 1
-12:57:56.402 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[1]
-12:57:56.459 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Check box already selected1
-12:57:56.868 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 2
-12:57:56.869 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[2]
-12:57:56.974 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 2
-12:57:57.376 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 3
-12:57:57.377 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[3]
-12:57:57.457 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the Checkbox : 3
-12:57:57.860 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Waiting for the 15 seconds pls check add the image
-12:58:06.003 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the button Update
-12:58:06.330 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-12:58:10.482 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-12:58:12.610 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-12:58:14.758 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the btnYes
-12:58:15.322 [main] INFO  com.jkl.pageObject.PO_HomePage - ... LOGOUT DONE ...
-12:58:15.385 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Driver shutdown
-13:00:24.059 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Base class started...
-13:00:24.101 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-13:00:24.102 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-13:00:26.323 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Chrome driver selected
-13:00:26.946 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login page started
-13:00:27.002 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Maximize the window
-13:00:27.214 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-13:00:27.216 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-13:00:30.415 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-13:00:33.422 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Caller methods name: test_EditAssetCategory
-13:00:33.782 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Monitor
-13:00:35.830 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findAssetCategoryFromRowListAndClickOnThreeDot
-13:00:35.833 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-13:00:35.834 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-13:00:36.460 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Monitor Updated
-13:00:36.460 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Monitor
-13:00:36.461 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given confirmationGiverValue not matched: Monitor
-13:00:36.669 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - listRowCount: -1
-13:00:36.670 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Item found in row number: -1
-13:00:36.670 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - isClickedOnAddOrEditButton: false
-13:00:36.694 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-13:00:40.778 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-13:00:42.924 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-13:00:42.948 [main] INFO  com.jkl.pageObject.PO_HomePage - Logout Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//button//div[text()='Yes']"}
+Session ID: d2034a4141ed3dc1ca0772dc67ecb073
+11:35:14.166 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+11:35:14.215 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+11:35:14.216 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+11:35:16.854 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+11:35:18.950 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+11:35:19.013 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+11:35:19.148 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+11:35:19.149 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+11:35:19.169 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+11:35:19.181 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
+11:35:19.377 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
+11:35:20.407 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
+11:35:20.419 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
+11:35:20.419 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
+11:35:21.231 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
+11:35:21.848 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
+11:35:22.158 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
+11:35:22.432 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
+11:35:23.710 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - !!!LOGIN FAILED!!!
+11:42:36.408 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+11:42:36.449 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+11:42:36.450 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+11:42:38.701 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+11:42:41.194 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+11:42:41.217 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+11:42:41.287 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+11:42:41.287 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+11:42:41.298 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+11:42:41.308 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
+11:42:41.366 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
+11:43:29.302 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+11:43:29.365 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+11:43:29.365 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+11:43:32.059 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+11:43:34.602 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+11:43:34.614 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+11:43:34.794 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+11:43:34.794 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+11:43:34.803 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+11:43:34.817 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
+11:43:34.952 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
+11:43:36.000 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
+11:43:36.045 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
+11:43:36.045 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
+11:43:36.838 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
+11:43:37.492 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
+11:43:37.815 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
+11:43:38.047 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
+11:44:09.574 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - !!!LOGIN FAILED!!!
+11:46:46.975 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+11:46:47.018 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+11:46:47.018 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+11:46:49.740 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+11:46:52.309 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+11:46:52.320 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+11:46:52.459 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+11:46:52.460 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+11:46:52.470 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+11:46:52.484 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
+11:46:52.646 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
+11:46:53.708 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
+11:46:53.720 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
+11:46:53.720 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
+11:46:54.264 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
+11:46:54.910 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
+11:46:55.208 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
+11:46:55.486 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
+11:46:56.729 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(@class,'chakra-heading')]"}
   (Session info: chrome=125.0.6422.142)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fc95b4e4afcbc6c40ef69760758246b5, findElement {using=xpath, value=//button//div[text()='Yes']}]
+Command: [99273f9cbc6868044ffffc36e0c518d0, findElement {using=xpath, value=//h1[contains(@class,'chakra-heading')]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc95b4e4afcbc6c40ef69760758246b5
-13:01:52.476 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Base class started...
-13:01:52.531 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-13:01:52.532 [main] INFO  com.jkl.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-13:01:54.705 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Chrome driver selected
-13:01:55.106 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login page started
-13:01:55.230 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Maximize the window
-13:01:55.492 [main] INFO  com.jkl.testCases.TC_Inner_AssetCategory - Login user Email: sanjiv.koiri@jklgroup.in and Password: Sanjiv@123456
-13:01:55.494 [main] INFO  com.jkl.pageObject.PO_LoginPage - Method called Login: Login
-13:01:58.743 [main] INFO  com.jkl.pageObject.PO_Inner_DashboardPage - Clicked on the menuAssetCategories
-13:02:01.770 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Caller methods name: test_EditAssetCategory
-13:02:02.230 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Searched the search keys in the search box: Monitor Updated
-13:02:04.276 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - findThreedActionButtonAndClick method called and Caller method name: findAssetCategoryFromRowListAndClickOnThreeDot
-13:02:04.277 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToClickOnThreeDot: true
-13:02:04.278 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - wantToclickOnFindSearckKey: false
-13:02:04.834 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - formatText: Monitor Updated
-13:02:04.835 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - searchKey: Monitor Updated
-13:02:04.835 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - isSearchKeyMatched: true
-13:02:04.835 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Pointer_Address: (//div[contains(@class,'flex flex-col gap-2 items-center')]//div[contains(@class,'neu-more-v')])[1]
-13:02:04.878 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Given value matched with the list value: Monitor Updated
-13:02:04.917 [main] INFO  com.jkl.projectUtility.FindThreeDotAndClick - Clicked on the three dot option button
-13:02:05.130 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - listRowCount: 1
-13:02:05.131 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Item found in row number: 1
-13:02:05.162 [main] INFO  com.jkl.actions.Action_Archive - Action_Edit caller method name: addOrEditAssetCategory
-13:02:05.751 [main] INFO  com.jkl.actions.Action_Archive - Is edit button displayed and enabled: true
-13:02:05.752 [main] INFO  com.jkl.actions.Action_Archive - btnEdit_address:- (//*[contains(normalize-space(text()),'Edit')])[1]
-13:02:05.909 [main] INFO  com.jkl.actions.Action_Archive - rowListCount: 1
-13:02:06.303 [main] INFO  com.jkl.actions.Action_Archive - Clicked on the Edit action button present under three dots
-13:02:07.305 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - isClickedOnAddOrEditButton: true
-13:02:07.991 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryName
-13:02:08.613 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryCode
-13:02:09.903 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Entered assetCategoryDescription
-13:02:09.904 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentTypesNumber: [I@45292ec1
-13:02:09.905 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 1
-13:02:09.906 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[1]
-13:02:09.966 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Check box already selected1
-13:02:10.368 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 2
-13:02:10.368 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[2]
-13:02:10.433 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Check box already selected2
-13:02:10.836 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - assingmentType: 3
-13:02:10.837 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checkbox_address: (//div[contains(@class,'w-max flex items-center gap-2')]//*[name()='svg'])[3]
-13:02:10.901 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Check box already selected3
-13:02:11.312 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Waiting for the 15 seconds pls check add the image
-13:02:19.415 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Clicked on the button Update
-13:02:19.864 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Checking alert on intervel of 150 milliSeconds and loop count is: 1
-13:02:19.865 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - Alert message is displayed: true
-13:02:19.875 [main] INFO  com.jkl.ReUseAble.PageObject.ReUseAbleElement - ===>>> Alert Message Content: Asset category updated successfully.
-13:02:19.875 [main] INFO  com.jkl.pageObject.PO_AssetCategoriesPage - Alert Message: Asset category updated successfully.
-13:02:19.904 [main] INFO  com.jkl.pageObject.PO_HomePage - Method called: Logout
-13:02:24.086 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the userProfile
-13:02:26.161 [main] INFO  com.jkl.pageObject.PO_HomePage - Clicked on the logout
-13:02:26.182 [main] INFO  com.jkl.pageObject.PO_HomePage - Logout Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//button//div[text()='Yes']"}
+Session ID: 99273f9cbc6868044ffffc36e0c518d0
+11:48:31.186 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+11:48:31.235 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+11:48:31.235 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+11:48:35.300 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+11:48:38.990 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+11:48:39.004 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+11:48:39.107 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+11:48:39.110 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+11:48:39.169 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+11:48:39.182 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: 000058BE1B24DE260E4EAA0B8C68B6C2
+11:48:39.183 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
+11:48:39.263 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
+11:49:11.059 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+11:49:11.145 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+11:49:11.146 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+11:49:13.832 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+11:49:16.064 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+11:49:16.081 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+11:49:16.256 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+11:49:16.257 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+11:49:16.272 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+11:49:16.286 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
+11:49:16.408 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
+11:49:17.441 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
+11:49:17.452 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
+11:49:17.452 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
+11:49:18.016 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
+11:49:18.790 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
+11:49:19.125 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
+11:49:19.375 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
+11:49:20.615 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(@class,'chakra-heading')]"}
   (Session info: chrome=125.0.6422.142)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e2ded71a86904ab3ac90be40687e7e7, findElement {using=xpath, value=//button//div[text()='Yes']}]
+Command: [7bbda8e5bfeabbca2b0bed8a9f4c891d, findElement {using=xpath, value=//h1[contains(@class,'chakra-heading')]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e2ded71a86904ab3ac90be40687e7e7
+Session ID: 7bbda8e5bfeabbca2b0bed8a9f4c891d
+11:51:25.084 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+11:51:25.126 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+11:51:25.127 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into headless browsing
+11:51:25.127 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+11:51:27.436 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+11:51:29.938 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+11:51:29.950 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+11:51:30.041 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+11:51:30.042 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+11:51:30.059 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+11:51:30.073 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: 758DC569DC840C3FB987701D037DE9B7
+11:51:30.073 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: 0B5C57664E18893D5D738DBED9042079
+11:51:30.073 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
+11:51:30.305 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
+11:51:56.801 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+11:51:56.850 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+11:51:56.851 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into headless browsing
+11:51:56.851 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+11:51:59.436 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+11:52:01.092 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+11:52:01.115 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+11:52:01.263 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+11:52:01.269 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+11:52:01.289 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+11:52:01.310 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
+11:52:01.448 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
+11:52:02.556 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
+11:52:02.584 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
+11:52:02.585 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
+11:52:03.199 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
+11:52:03.877 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
+11:52:04.199 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
+11:52:04.435 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
+11:52:05.690 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(@class,'chakra-heading')]"}
+  (Session info: chrome=125.0.6422.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ec406810167b808f436d8b1f6be6a27, findElement {using=xpath, value=//h1[contains(@class,'chakra-heading')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ec406810167b808f436d8b1f6be6a27

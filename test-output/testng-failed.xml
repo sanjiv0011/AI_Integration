@@ -4,20 +4,19 @@
   <parameter name="browser" value="chrome"/>
   <parameter name="loginUserType" value="user"/>
   <listeners>
-    <listener class-name="com.jkl.utilities.ExtentReport"/>
+    <listener class-name="com.leonardoAI.utilities.ExtentReport"/>
   </listeners>
   <test thread-count="1" name="JKL Assets Managemant(failed)">
     <classes>
-      <class name="com.jkl.testCases.TC_Inner_AssetCategory">
+      <class name="com.leonardoAI.testCases.TC_Home">
         <methods>
           <include name="Setup"/>
-          <include name="test_EditAssetCategory"/>
           <include name="Logout"/>
-          <include name="Login"/>
           <include name="Teardown"/>
-          <include name="test_AddAssetCategory"/>
+          <include name="test_HomePageElement"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- com.jkl.testCases.TC_Inner_AssetCategory -->
+      </class> <!-- com.leonardoAI.testCases.TC_Home -->
     </classes>
   </test> <!-- JKL Assets Managemant(failed) -->
 </suite> <!-- Failed suite [Suite] -->
