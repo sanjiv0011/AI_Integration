@@ -11,6 +11,8 @@
 	[chrome, firefor, edge]-->
 	<parameter name="loginUserType" value="user"></parameter><!-- value is only
 	[admin, user]-->
+	
+	<parameter name="wantToByPassLoginLogout" value="true"></parameter> <!-- value is [true, false]-->
 
 	<test name="JKL Assets Managemant">
 
@@ -18,22 +20,7 @@
 
 			<!-- =======JKL ASSET MANAGEMENT WEBSITE TESTING========= -->
 
-			<!--<class name="com.leonardoAI.testCases.TC_Home"/>-->
-
-			<!--	<class name="com.jkl.testCases.TC_Customers"/>-->
-
-			<!--<class name="com.jkl.testCases.TC_Tenants" />-->
-
-			<!--	<class name="com.jkl.testCases.TC_Inner_Dashboard" />-->
-
-			<class name="com.jkl.testCases.TC_Inner_AssetCategory" />
-			
-			
-			<!--<class name="com.p360.testCases.TC_Membership"/>-->
-
-			<!--<class name="com.p360.testCases.TC_Classes"/>-->
-
-			<!--<class name="com.p360.testCases.TC_AllInOne_UserModule"/>-->
+			<class name="com.leonardoAI.testCases.TC_Home"/>
 
 		</classes>
 

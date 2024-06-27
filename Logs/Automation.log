@@ -1,181 +1,372 @@
-11:33:06.739 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
-11:33:06.859 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-11:33:06.860 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-11:33:09.656 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
-11:33:11.960 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
-11:33:12.007 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
-11:33:12.130 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
-11:33:12.132 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
-11:33:12.147 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
-11:33:12.160 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
-11:33:12.291 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
-11:33:13.329 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
-11:33:13.340 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
-11:33:13.340 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
-11:33:13.901 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
-11:33:14.606 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
-11:33:14.974 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
-11:33:15.210 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
-11:33:46.731 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: Expected condition failed: waiting for text ('Get Started Here') to be the value of element [[ChromeDriver: chrome on any (d2034a4141ed3dc1ca0772dc67ecb073)] -> xpath: //h1[contains(@class,'chakra-heading')]] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2034a4141ed3dc1ca0772dc67ecb073
-11:35:14.166 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
-11:35:14.215 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-11:35:14.216 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-11:35:16.854 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
-11:35:18.950 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
-11:35:19.013 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
-11:35:19.148 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
-11:35:19.149 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
-11:35:19.169 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
-11:35:19.181 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
-11:35:19.377 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
-11:35:20.407 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
-11:35:20.419 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
-11:35:20.419 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
-11:35:21.231 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
-11:35:21.848 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
-11:35:22.158 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
-11:35:22.432 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
-11:35:23.710 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - !!!LOGIN FAILED!!!
-11:42:36.408 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
-11:42:36.449 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-11:42:36.450 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-11:42:38.701 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
-11:42:41.194 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
-11:42:41.217 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
-11:42:41.287 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
-11:42:41.287 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
-11:42:41.298 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
-11:42:41.308 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
-11:42:41.366 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
-11:43:29.302 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
-11:43:29.365 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-11:43:29.365 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-11:43:32.059 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
-11:43:34.602 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
-11:43:34.614 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
-11:43:34.794 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
-11:43:34.794 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
-11:43:34.803 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
-11:43:34.817 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
-11:43:34.952 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
-11:43:36.000 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
-11:43:36.045 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
-11:43:36.045 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
-11:43:36.838 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
-11:43:37.492 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
-11:43:37.815 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
-11:43:38.047 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
-11:44:09.574 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - !!!LOGIN FAILED!!!
-11:46:46.975 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
-11:46:47.018 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-11:46:47.018 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-11:46:49.740 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
-11:46:52.309 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
-11:46:52.320 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
-11:46:52.459 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
-11:46:52.460 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
-11:46:52.470 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
-11:46:52.484 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
-11:46:52.646 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
-11:46:53.708 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
-11:46:53.720 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
-11:46:53.720 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
-11:46:54.264 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
-11:46:54.910 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
-11:46:55.208 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
-11:46:55.486 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
-11:46:56.729 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(@class,'chakra-heading')]"}
-  (Session info: chrome=125.0.6422.142)
+12:18:17.371 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+12:18:17.474 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+12:18:17.474 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+12:18:20.926 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+12:18:25.622 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+12:18:25.669 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+12:18:25.848 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+12:18:25.848 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+12:18:25.867 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+12:18:25.898 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+12:18:25.899 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 8502E5A939CD9864A1355628DFBCF43D
+12:18:25.900 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+12:18:25.915 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+12:18:26.596 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Launch App
+12:18:27.623 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+12:18:27.638 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+12:18:27.639 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+12:18:27.639 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+12:18:27.640 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name and xpath >>Email and >> (//input[@id='email'])[1]
+12:18:28.607 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd into >> Email with data >> l5344052@gmail.com
+12:18:29.813 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+12:18:29.813 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name and xpath >>Password and >> (//input[@id='password'])[1]
+12:18:30.585 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd into >> Password with data >> Qwer4321!
+12:18:31.806 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+12:18:31.807 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+12:18:32.387 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Submit
+12:18:33.438 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
+12:18:37.869 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - ...LOGIN DONE...
+12:18:37.949 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - Method called: Logout
+12:18:40.555 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - !!! LOGOUT FAILEED !!!
+12:22:37.422 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+12:22:37.466 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+12:22:37.467 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+12:22:39.874 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+12:22:42.620 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+12:22:42.645 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+12:22:42.767 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+12:22:42.768 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+12:22:42.782 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+12:22:42.793 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+12:22:42.793 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+12:22:42.794 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+12:22:43.428 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Launch App
+12:22:44.462 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+12:22:44.473 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+12:22:44.473 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+12:22:44.474 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+12:22:44.474 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name and xpath >>Email and >> (//input[@id='email'])[1]
+12:22:45.356 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd into >> Email with data >> l5344052@gmail.com
+12:22:46.561 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+12:22:46.562 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name and xpath >>Password and >> (//input[@id='password'])[1]
+12:22:47.401 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd into >> Password with data >> Qwer4321!
+12:22:48.627 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+12:22:48.627 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+12:22:49.226 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Submit
+12:23:00.409 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Exception From:clickBtnCloseModel >> Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//button[starts-with(@aria-label,'Close')])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+12:23:01.669 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - ...LOGIN DONE...
+12:23:01.719 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - Method called: Logout
+12:23:04.374 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - !!! LOGOUT FAILEED !!!
+12:32:55.637 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+12:32:55.678 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+12:32:55.678 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+12:32:57.985 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+12:33:00.890 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+12:33:00.914 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+12:33:01.032 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+12:33:01.032 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+12:33:01.046 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+12:33:01.055 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+12:33:01.055 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+12:33:01.055 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+12:33:01.680 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Launch App
+12:33:02.705 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+12:33:02.716 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+12:33:02.716 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+12:33:02.716 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+12:33:02.717 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name and xpath >>Email and >> (//input[@id='email'])[1]
+12:33:03.610 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd into >> Email with data >> l5344052@gmail.com
+12:33:04.823 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+12:33:04.824 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name and xpath >>Password and >> (//input[@id='password'])[1]
+12:33:05.702 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd into >> Password with data >> Qwer4321!
+12:33:06.916 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+12:33:06.917 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+12:33:07.527 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Submit
+12:33:18.981 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Exception From:clickBtnCloseModel >> Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//button[starts-with(@aria-label,'Close')])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+12:33:20.236 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - ...LOGIN DONE...
+12:33:20.290 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - Method called: Logout
+12:33:22.291 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: UserLogout
+12:33:22.291 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> User Menus and >> (//button[starts-with(@id,'menu-button')])[1]
+12:33:22.951 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> User Menus
+12:33:23.966 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: UserLogout
+12:33:23.968 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Logout and >> (//button[@value='LogoutMenuItem'])[1]
+12:33:24.638 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Logout
+12:33:26.607 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - ... LOGOUT DONE ...
+12:33:26.703 [main] INFO  com.leonardoAI.testCases.TC_Home - Driver shutdown
+13:05:14.459 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+13:05:14.522 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+13:05:14.523 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+13:05:17.719 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+13:05:20.500 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+13:05:20.524 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+13:05:20.670 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+13:05:20.670 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+13:05:20.690 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+13:05:20.704 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+13:05:20.705 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+13:05:20.705 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+13:05:21.338 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Launch App
+13:05:22.364 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+13:05:22.376 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+13:05:22.376 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+13:05:22.377 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+13:05:22.377 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+13:05:22.377 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+13:05:22.906 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Submit
+13:05:34.033 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Exception From:clickBtnCloseModel >> Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//button[starts-with(@aria-label,'Close')])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+13:05:45.767 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//img[@alt='Leonardo.Ai'])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+13:08:49.820 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+13:08:49.864 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+13:08:49.865 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+13:08:52.367 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+13:08:55.152 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+13:08:55.166 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+13:08:55.285 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+13:08:55.286 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+13:08:55.307 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+13:08:55.320 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+13:08:55.321 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+13:08:55.321 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+13:08:56.003 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Launch App
+13:08:57.030 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+13:08:57.044 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+13:08:57.044 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+13:08:57.045 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+13:08:57.045 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - totalInputField: 2
+13:08:57.046 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+13:08:57.047 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+13:08:57.619 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Submit
+13:09:08.779 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Exception From:clickBtnCloseModel >> Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//button[starts-with(@aria-label,'Close')])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+13:09:20.084 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//img[@alt='Leonardo.Ai'])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+13:09:51.736 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+13:09:51.774 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+13:09:51.775 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+13:09:54.399 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+13:09:56.991 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+13:09:57.017 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+13:09:57.190 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+13:09:57.191 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+13:09:57.212 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+13:09:57.221 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+13:09:57.222 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+13:09:57.222 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+13:09:57.869 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Launch App
+13:09:58.962 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+13:09:58.974 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+13:09:58.975 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+13:09:58.976 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+13:09:58.978 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - totalInputField: 2
+13:09:58.979 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - fieldName_Lable: Email
+13:09:58.979 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - xpathAddress_Lable: PL_LoginPage.addressFieldEmail
+13:09:58.980 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - xpathAddress_Lable: PL_LoginPage.addressFieldEmail
+13:09:58.981 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name and xpath >>Email and >> PL_LoginPage.addressFieldEmail
+13:09:59.011 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Exception from callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue >> no such element: Unable to locate element: {"method":"xpath","selector":"PL_LoginPage.addressFieldEmail"}
+  (Session info: chrome=126.0.6478.114)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [99273f9cbc6868044ffffc36e0c518d0, findElement {using=xpath, value=//h1[contains(@class,'chakra-heading')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 99273f9cbc6868044ffffc36e0c518d0
-11:48:31.186 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
-11:48:31.235 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-11:48:31.235 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-11:48:35.300 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
-11:48:38.990 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
-11:48:39.004 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
-11:48:39.107 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
-11:48:39.110 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
-11:48:39.169 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
-11:48:39.182 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: 000058BE1B24DE260E4EAA0B8C68B6C2
-11:48:39.183 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
-11:48:39.263 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
-11:49:11.059 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
-11:49:11.145 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-11:49:11.146 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-11:49:13.832 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
-11:49:16.064 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
-11:49:16.081 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
-11:49:16.256 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
-11:49:16.257 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
-11:49:16.272 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
-11:49:16.286 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
-11:49:16.408 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
-11:49:17.441 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
-11:49:17.452 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
-11:49:17.452 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
-11:49:18.016 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
-11:49:18.790 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
-11:49:19.125 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
-11:49:19.375 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
-11:49:20.615 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(@class,'chakra-heading')]"}
-  (Session info: chrome=125.0.6422.142)
+Command: [9345203b291b773c51c5e93a2fbb7bc5, findElement {using=xpath, value=PL_LoginPage.addressFieldEmail}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9345203b291b773c51c5e93a2fbb7bc5
+13:09:59.011 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - fieldName_Lable: Password
+13:09:59.012 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - xpathAddress_Lable: PL_LoginPage.addressFieldPassword
+13:09:59.012 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - xpathAddress_Lable: PL_LoginPage.addressFieldPassword
+13:09:59.013 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name and xpath >>Password and >> PL_LoginPage.addressFieldPassword
+13:09:59.034 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Exception from callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue >> no such element: Unable to locate element: {"method":"xpath","selector":"PL_LoginPage.addressFieldPassword"}
+  (Session info: chrome=126.0.6478.114)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7bbda8e5bfeabbca2b0bed8a9f4c891d, findElement {using=xpath, value=//h1[contains(@class,'chakra-heading')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7bbda8e5bfeabbca2b0bed8a9f4c891d
-11:51:25.084 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
-11:51:25.126 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-11:51:25.127 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into headless browsing
-11:51:25.127 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-11:51:27.436 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
-11:51:29.938 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
-11:51:29.950 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
-11:51:30.041 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
-11:51:30.042 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
-11:51:30.059 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
-11:51:30.073 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: 758DC569DC840C3FB987701D037DE9B7
-11:51:30.073 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: 0B5C57664E18893D5D738DBED9042079
-11:51:30.073 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
-11:51:30.305 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
-11:51:56.801 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
-11:51:56.850 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
-11:51:56.851 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into headless browsing
-11:51:56.851 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
-11:51:59.436 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
-11:52:01.092 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
-11:52:01.115 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
-11:52:01.263 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
-11:52:01.269 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
-11:52:01.289 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
-11:52:01.310 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Open Windows: E3BCA42853D2B1342E8D74B321E4C63C
-11:52:01.448 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnLaunchApp
-11:52:02.556 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - newWindowHandle: Leonardo.Ai
-11:52:02.584 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - New Window: Leonardo.Ai
-11:52:02.585 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Switched to the new tab
-11:52:03.199 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Enteterd email
-11:52:03.877 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Entered password
-11:52:04.199 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on login submit button
-11:52:04.435 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
-11:52:05.690 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(@class,'chakra-heading')]"}
-  (Session info: chrome=125.0.6422.142)
+Command: [9345203b291b773c51c5e93a2fbb7bc5, findElement {using=xpath, value=PL_LoginPage.addressFieldPassword}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9345203b291b773c51c5e93a2fbb7bc5
+13:09:59.035 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+13:09:59.036 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+13:09:59.674 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Submit
+13:10:10.794 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Exception From:clickBtnCloseModel >> no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9345203b291b773c51c5e93a2fbb7bc5, findElement {using=xpath, value=(//button[starts-with(@aria-label,'Close')])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9345203b291b773c51c5e93a2fbb7bc5
+13:10:12.011 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9345203b291b773c51c5e93a2fbb7bc5, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9345203b291b773c51c5e93a2fbb7bc5
+13:10:12.095 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - Method called: Logout
+13:10:14.110 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: UserLogout
+13:10:14.111 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> User Menus and >> (//button[starts-with(@id,'menu-button')])[1]
+13:10:14.123 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Exception from callMeToClickOnAnyButtonWithNameAndXpath >> no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9345203b291b773c51c5e93a2fbb7bc5, findElement {using=xpath, value=(//button[starts-with(@id,'menu-button')])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9345203b291b773c51c5e93a2fbb7bc5
+13:10:14.124 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: UserLogout
+13:10:14.125 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Logout and >> (//button[@value='LogoutMenuItem'])[1]
+13:10:14.136 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Exception from callMeToClickOnAnyButtonWithNameAndXpath >> no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9345203b291b773c51c5e93a2fbb7bc5, findElement {using=xpath, value=(//button[@value='LogoutMenuItem'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9345203b291b773c51c5e93a2fbb7bc5
+13:10:14.643 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - Logout Exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9345203b291b773c51c5e93a2fbb7bc5, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9345203b291b773c51c5e93a2fbb7bc5
+13:13:30.734 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+13:13:30.782 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+13:13:30.782 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+13:13:33.174 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+13:13:36.615 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+13:13:36.670 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+13:13:36.940 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+13:13:36.941 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+13:13:36.953 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+13:13:36.961 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+13:13:36.962 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+13:13:36.962 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+13:13:37.640 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Launch App
+13:13:38.661 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+13:13:38.673 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+13:13:38.673 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+13:13:38.673 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+13:13:38.674 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - totalInputField: 2
+13:13:38.674 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name is >>Email and address is >> PL_LoginPage.addressFieldEmail and values is >> l5344052@gmail.com
+13:13:38.704 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Exception from callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue >> no such element: Unable to locate element: {"method":"xpath","selector":"PL_LoginPage.addressFieldEmail"}
+  (Session info: chrome=126.0.6478.114)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9ec406810167b808f436d8b1f6be6a27, findElement {using=xpath, value=//h1[contains(@class,'chakra-heading')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9ec406810167b808f436d8b1f6be6a27
+Command: [e7c2604d8552eb8202a5e89938f530cb, findElement {using=xpath, value=PL_LoginPage.addressFieldEmail}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e7c2604d8552eb8202a5e89938f530cb
+13:13:38.704 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name is >>Password and address is >> PL_LoginPage.addressFieldPassword and values is >> Qwer4321!
+13:13:38.716 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Exception from callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue >> no such element: Unable to locate element: {"method":"xpath","selector":"PL_LoginPage.addressFieldPassword"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e7c2604d8552eb8202a5e89938f530cb, findElement {using=xpath, value=PL_LoginPage.addressFieldPassword}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e7c2604d8552eb8202a5e89938f530cb
+13:13:38.717 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+13:13:38.717 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+13:13:39.243 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Submit
+13:13:50.467 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Exception From:clickBtnCloseModel >> Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//button[starts-with(@aria-label,'Close')])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+13:14:01.860 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//img[@alt='Leonardo.Ai'])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+13:18:08.908 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+13:18:08.957 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+13:18:08.957 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+13:18:11.643 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+13:18:14.684 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+13:18:14.706 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+13:18:14.941 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+13:18:14.942 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+13:18:14.964 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+13:18:14.982 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+13:18:14.983 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+13:18:14.984 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+13:18:15.656 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Launch App
+13:18:16.752 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+13:18:16.891 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+13:18:16.892 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+13:18:16.892 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+13:18:16.893 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - totalInputField: 2
+13:18:16.893 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name is >>Email and address is >> PL_LoginPage.addressFieldEmail and values is >> l5344052@gmail.com
+13:18:16.916 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Exception from callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue >> no such element: Unable to locate element: {"method":"xpath","selector":"PL_LoginPage.addressFieldEmail"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0612a99ebb4c61967bb5dda9c725a4cc, findElement {using=xpath, value=PL_LoginPage.addressFieldEmail}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0612a99ebb4c61967bb5dda9c725a4cc
+13:18:16.917 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name is >>Password and address is >> PL_LoginPage.addressFieldPassword and values is >> Qwer4321!
+13:18:16.930 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Exception from callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue >> no such element: Unable to locate element: {"method":"xpath","selector":"PL_LoginPage.addressFieldPassword"}
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0612a99ebb4c61967bb5dda9c725a4cc, findElement {using=xpath, value=PL_LoginPage.addressFieldPassword}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, pageLoadStrategy: normal, platformName: any, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0612a99ebb4c61967bb5dda9c725a4cc
+13:18:16.930 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+13:18:16.931 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+13:18:17.491 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Submit
+13:18:28.610 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Exception From:clickBtnCloseModel >> Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//button[starts-with(@aria-label,'Close')])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+13:18:39.972 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Login exception message: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//img[@alt='Leonardo.Ai'])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+13:20:56.894 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+13:20:56.932 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+13:20:56.933 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+13:20:59.207 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+13:21:01.929 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+13:21:01.956 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+13:21:02.038 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+13:21:02.039 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+13:21:02.050 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+13:21:02.058 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 62BC6DC82D3A13942AA542AE2E8444BE
+13:21:02.059 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+13:21:02.059 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+13:21:02.059 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+13:21:38.457 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+13:21:38.501 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Disabled Ads and Notifications
+13:21:38.502 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into Debugging mode with port:9222
+13:21:40.805 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+13:21:42.904 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+13:21:42.916 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+13:21:43.113 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+13:21:43.114 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+13:21:43.123 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+13:21:43.136 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: 07CC5AAB723753F7BD24DF5F06D6DAFA
+13:21:43.137 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+13:21:43.137 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+13:21:43.779 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Launch App
+13:21:44.805 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+13:21:44.816 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+13:21:44.816 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+13:21:44.816 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+13:21:44.817 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - totalInputField: 2
+13:21:44.817 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name is >>Email and address is >> (//input[@id='email'])[1] and values is >> l5344052@gmail.com
+13:21:45.749 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd in the input field fieldEmail
+13:21:45.953 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name is >>Password and address is >> (//input[@id='password'])[1] and values is >> Qwer4321!
+13:21:46.812 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd in the input field fieldPassword
+13:21:47.017 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+13:21:47.018 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+13:21:47.554 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Submit
+13:21:58.935 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Exception From:clickBtnCloseModel >> Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//button[starts-with(@aria-label,'Close')])[2]' (tried for 10 second(s) with 500 milliseconds interval)
+13:22:00.218 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - ...LOGIN DONE...
+13:22:00.271 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - Method called: Logout
+13:22:02.276 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: UserLogout
+13:22:02.276 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> User Menus and >> (//button[starts-with(@id,'menu-button')])[1]
+13:22:02.917 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> User Menus
+13:22:03.919 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: UserLogout
+13:22:03.920 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Logout and >> (//button[@value='LogoutMenuItem'])[1]
+13:22:04.610 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicke on button >> Logout
+13:22:06.480 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - ... LOGOUT DONE ...
+13:22:06.578 [main] INFO  com.leonardoAI.testCases.TC_Home - Driver shutdown

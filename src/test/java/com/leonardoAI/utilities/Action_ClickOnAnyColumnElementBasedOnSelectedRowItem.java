@@ -1,4 +1,4 @@
-package com.leonardoAI.actions;
+package com.leonardoAI.utilities;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,15 +13,15 @@ import com.leonardoAI.ReUseAble.PageObject.ReUseAbleElement;
 
 public class Action_ClickOnAnyColumnElementBasedOnSelectedRowItem {
 	
-	public static final Logger logger = LogManager.getLogger(Action_ClickOnAnyColumnElementBasedOnSelectedRowItem.class);
-	public static ReUseAbleElement ruae;
-	public static SoftAssert softAssert = new SoftAssert();
-	public static JavascriptExecutor jsExecutor;
-	public static Actions action;
+	public final Logger logger = LogManager.getLogger(getClass());
+	public ReUseAbleElement ruae;
+	public SoftAssert softAssert = new SoftAssert();
+	public JavascriptExecutor jsExecutor;
+	public Actions action;
 	
 	
 	//VIEW Action JKL => To use this first search list item so that it comes at first position
-	public static boolean clickOnSelectedColumnElementBasedOnGivenRowCount(String list_address, int rowCount, int columnNumber, boolean wantToClickOnGivenColumnNumber, WebDriver driver) throws InterruptedException {
+	public boolean clickOnSelectedColumnElementBasedOnGivenRowCount(String list_address, int rowCount, int columnNumber, boolean wantToClickOnGivenColumnNumber, WebDriver driver) throws InterruptedException {
 		
 		StackTraceElement stackTraceElement[] = Thread.currentThread().getStackTrace();
 		String callerMethodName = stackTraceElement[2].getMethodName();

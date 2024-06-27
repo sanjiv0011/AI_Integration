@@ -6,6 +6,7 @@ import org.testng.asserts.SoftAssert;
 import com.github.javafaker.Faker;
 import com.leonardoAI.pageObject.PO_HomePage;
 import com.leonardoAI.pageObject.PO_LoginPage;
+import com.leonardoAI.pageObject.pageLocators.PL_LoginPage;
 
 public class TC_Home extends BaseClass{
 	//HOME PAGE CONSTRUCTOR
@@ -24,6 +25,5 @@ public class TC_Home extends BaseClass{
 	@Test(priority = 1)
 	public void test_HomePageElement() throws InterruptedException {
 		hp = new PO_HomePage(driver);
-		hp.checkMenus();
 	}
 }

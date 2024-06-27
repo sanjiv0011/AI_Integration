@@ -19,6 +19,10 @@ import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import com.leonardoAI.ReUseAble.PageObject.ReUseAbleElement;
+import com.leonardoAI.pageObject.pageLocators.PL_HomePage;
+import com.leonardoAI.utilities.ClickOnAnyButton;
+import com.leonardoAI.utilities.NavigateToNewOpenTab;
+import com.leonardoAI.utilities.SetDataIntoTextInputField;
 
 public class PO_HomePage extends ReUseAbleElement {
 
@@ -31,6 +35,9 @@ public class PO_HomePage extends ReUseAbleElement {
 	public PO_LoginPage lp;
 	public Actions action;
 	public SoftAssert softAssert = new SoftAssert();
+	public SetDataIntoTextInputField setDataIntoTextInputField = new SetDataIntoTextInputField();
+	public NavigateToNewOpenTab navigateToNewTab = new NavigateToNewOpenTab();
+	public ClickOnAnyButton clickOnAnyButton = new ClickOnAnyButton();
 
 	// HOMEPAGE CONSTRUCTOR CREATION
 	public PO_HomePage(WebDriver driver) {
@@ -44,55 +51,16 @@ public class PO_HomePage extends ReUseAbleElement {
 
 	}
 
-	// ALERT MESSAGES
-	public String alertMsgCardAddedSuccesfully = "Card Added Successfully.";
-
-	// =========START========HOME PAGE OBJECTS=============//
-	final String add_tab_dashaboard = "//div[contains(@class,'sidebarCategory')]//span[contains(text(),'Dashboard')]";
-	final String add_tab_customer = "//div[contains(@class,'sidebarCategory')]//span[contains(text(),'Customers')]";
-	final String add_userlogo = "//div[@class='flex items-center gap-2']";
-	final String add_bnt_profile = "//li[contains(@role,'menuitem')]//div[contains(text(),'Profile')]";
-	final String add_bnt_settings = "//li[contains(@role,'menuitem')]//div[contains(text(),'Settings')]";
-	final String add_bnt_lockScreen = "//li[contains(@role,'menuitem')]//div[contains(text(),'Lock Screen')]";
-	final String add_bnt_logout = "//li[contains(@role,'menuitem')]//div[contains(text(),'Logout')]";
-	final String add_btn_yes = "//button//div[text()='Yes']";
-	final String add_btn_no = "//button//div[text()='No']";
-
-	// to find page elements
-	@FindBy(xpath = "(//a[@title='Launch App'])[2]")
-	@CacheLookup
-	public WebElement btnLaunchApp;
-
-	@FindBy(xpath = add_tab_customer)
-	@CacheLookup
-	WebElement menuCustomer;
-
-	
-
-	// =========END========HOME PAGE OBJECTS=============//
-
-	// =========START========ACTION METHODS FOR HOME PAGE OBJECTS=============//
-
-	public void clickBtnLaunchApp() throws InterruptedException {
-		btnLaunchApp.click();
-		logger.info("clicked on btnLaunchApp");
-		Thread.sleep(1000);
-	}
-
-	
-
-	// =========END========ACTION METHODS FOR HOME PAGE OBJECTS=============//
 
 	// TO LOGOUT
 	public PO_LoginPage UserLogout() throws InterruptedException {
 		logger.info("Method called: Logout");
 		try {
 			Thread.sleep(2000);
-			clickOnUserProfile();
-			clickOnLogout();
-			clickOnYes();
+			clickOnAnyButton.callMeToClickOnAnyButtonWithNameAndXpath(driver, "User Menus", PL_HomePage.ADDRESS_MENU_BUTTON);
+			clickOnAnyButton.callMeToClickOnAnyButtonWithNameAndXpath(driver, "Logout", PL_HomePage.ADDRESS_LOGOUT_BUTTON);
 			Thread.sleep(500);
-			if (driver.getPageSource().contains("Login with Google")) {
+			if (driver.getPageSource().contains("Sign up or Login with")) {
 				softAssert.assertTrue(true);
 				logger.info("... LOGOUT DONE ...");
 			} else {
@@ -101,7 +69,7 @@ public class PO_HomePage extends ReUseAbleElement {
 			}
 		} catch (Exception e) {
 			logger.info("Logout Exception: " + e.getMessage());
-			softAssert.assertTrue(false, "After logout it lookin for [Login with Google] text");
+			softAssert.assertTrue(false, "After logout it lookin for [Sign up or Login with] text");
 		}
 		softAssert.assertAll();
 		return new PO_LoginPage(driver);
@@ -109,8 +77,6 @@ public class PO_HomePage extends ReUseAbleElement {
 
 	// TO CHECK THE MENUS
 	public PO_HomePage checkMenus() throws InterruptedException {
-		clickOnMenuDashboard();
-		clickOnMenuCustomer();
 		return new PO_HomePage(driver);
 	}
 }

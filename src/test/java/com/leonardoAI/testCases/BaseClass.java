@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -48,6 +49,16 @@ public class BaseClass {
 	// FAKER LIBRARY TO GENERATE RADOM DATA FOR THE TEST
 	public Faker faker = new Faker();
 
+	// TO CONFIRM LOGIN AND LOGOUT ACTIVITY
+	private boolean wantToByPassLoginLogout;
+
+	@BeforeClass
+	public void confirmLoginLogoutByPass(ITestContext context) {
+		String param = context.getCurrentXmlTest().getParameter("wantToByPassLoginLogout");
+		wantToByPassLoginLogout = Boolean.parseBoolean(param);
+		logger.info("wantToByPassLoginLogout: " + wantToByPassLoginLogout);
+	}
+
 	// to select the driver
 	@Parameters("browser")
 	@BeforeTest
@@ -66,7 +77,7 @@ public class BaseClass {
 			// logger.info("2");
 
 			// TO INITIALIZE CHROME DRIVER
-			driver = new ChromeDriver(cco.customizedChromeOptions(true, true, false, true, 9222));
+			driver = new ChromeDriver(cco.customizedChromeOptions(true, false, false, true, 9222));
 
 			logger.info("Chrome driver selected");
 		} else if (br.equalsIgnoreCase("firefox")) {
@@ -94,10 +105,12 @@ public class BaseClass {
 	@Parameters("loginUserType")
 	@BeforeClass()
 	public void Login(String loginUserType) throws InterruptedException {
-		 if (loginUserType.equalsIgnoreCase("user")) {
-			lp = new PO_LoginPage(driver);
-			logger.info("Login user Email: " + userEmail + " and Password: " + userPassword);
-			hp = lp.Login(userEmail, userPassword);
+		if (!wantToByPassLoginLogout) {
+			if (loginUserType.equalsIgnoreCase("user")) {
+				lp = new PO_LoginPage(driver);
+				logger.info("Login user Email: " + userEmail + " and Password: " + userPassword);
+				hp = lp.Login(userEmail, userPassword);
+			}
 		}
 	}
 
@@ -105,8 +118,10 @@ public class BaseClass {
 	@Parameters("loginUserType")
 	@AfterTest()
 	public void Logout(String loginUserType) throws InterruptedException {
-		if (loginUserType.equalsIgnoreCase("user")) {
-			hp.UserLogout();
+		if (!wantToByPassLoginLogout) {
+			if (loginUserType.equalsIgnoreCase("user")) {
+				hp.UserLogout();
+			}
 		}
 	}
 
