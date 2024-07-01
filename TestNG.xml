@@ -11,14 +11,22 @@
 	[chrome, firefor, edge]-->
 	<parameter name="loginUserType" value="user"></parameter><!-- value is only
 	[admin, user]-->
-	
 	<parameter name="wantToByPassLoginLogout" value="true"></parameter> <!-- value is [true, false]-->
+	<parameter name="enableDebuggerMode" value="true, 9222"></parameter> <!--
+	value is [true,flalse, integer]-->
+	<parameter name="incognitoMode" value="false"></parameter> <!--
+	value is [true, false]-->
+	<parameter name="wantToBlockAdsAndNotifications" value="true"></parameter> <!--
+	value is [true, false]-->
+	<parameter name="headerLessBrowsing" value="false"></parameter> <!--
+	value is [true, false]-->
+	
 
-	<test name="JKL Assets Managemant">
+	<test name="LeonardoAI">
 
 		<classes>
 
-			<!-- =======JKL ASSET MANAGEMENT WEBSITE TESTING========= -->
+			<!-- =======LeonardoAI WEBSITE TESTING========= -->
 
 			<class name="com.leonardoAI.testCases.TC_Home"/>
 
