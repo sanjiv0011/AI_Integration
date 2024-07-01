@@ -100,10 +100,10 @@ public class BaseClass {
 		if (br.equalsIgnoreCase("chrome")) {
 			// logger.info("1");
 			// USE THIS LINE IF YOU WANT USE DRIVER FROM THE DRIVER FOLDER
-			System.setProperty("webdriver.chromedriver", rcf.getChromePath());
+			//System.setProperty("webdriver.chromedriver", rcf.getChromePath());
 
 			// OTHER WISE USE BELOW LINE IT WILL TAKES DRIVER FROM THE POM.XML FILES
-			// WebDriverManager.chromedriver().setup();
+			WebDriverManager.chromedriver().setup();
 			// logger.info("2");
 
 			// TO INITIALIZE CHROME DRIVER

@@ -91,3 +91,62 @@ java.net.SocketException: Connection reset
 17:27:36.591 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started with Debugger mode
 17:27:36.621 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
 17:27:36.805 [main] INFO  com.leonardoAI.testCases.TC_Home - 1
+15:18:46.282 [main] INFO  com.leonardoAI.testCases.TC_Home - Browser and Login-Logout Settings
+15:18:46.298 [main] INFO  com.leonardoAI.testCases.TC_Home - wantToEnableDebuggerMode: false And debugger post: 9222
+15:18:46.299 [main] INFO  com.leonardoAI.testCases.TC_Home - wantToByPassLoginLogout: false
+15:18:46.299 [main] INFO  com.leonardoAI.testCases.TC_Home - incognitoMode: false
+15:18:46.300 [main] INFO  com.leonardoAI.testCases.TC_Home - headerLessBrowsing: false
+15:18:46.300 [main] INFO  com.leonardoAI.testCases.TC_Home - wantToBlockAdsAndNotifications: false
+15:18:46.302 [main] INFO  com.leonardoAI.testCases.TC_Home - Base class started...
+15:18:48.304 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+15:18:48.368 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+15:18:48.429 [main] INFO  com.leonardoAI.utilities.CustomizedChromeOptions - Entered into incognito mode
+15:18:50.908 [main] INFO  com.leonardoAI.testCases.TC_Home - Chrome driver selected
+15:18:51.772 [main] INFO  com.leonardoAI.testCases.TC_Home - Login page started
+15:18:54.561 [main] INFO  com.leonardoAI.testCases.TC_Home - Maximize the window
+15:18:54.820 [main] INFO  com.leonardoAI.testCases.TC_Home - Login user Email: l5344052@gmail.com and Password: Qwer4321!
+15:18:54.820 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - Method called Login: Login
+15:18:54.833 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - originalWindow: AI Image Generator - Create Art, Images & Video | Leonardo AI
+15:18:54.850 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Open Windows: A0C550C531A8901BB1D702CF54089C75
+15:18:54.852 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: changeBetweenTabs
+15:18:54.853 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Launch App and >> (//a[@title='Launch App'])[2]
+15:18:55.628 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicked on button >> Launch App
+15:18:56.661 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - newWindowHandle: Leonardo.Ai
+15:18:56.672 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - New Window: Leonardo.Ai
+15:18:56.673 [main] INFO  com.leonardoAI.utilities.NavigateToNewOpenTab - Switched to the new tab
+15:18:56.673 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Method called 'callMeToFillDataIntoTextInputFieldWithNameAndXpathAndValue' and Caller method name: Login
+15:18:56.674 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - totalInputField: 2
+15:18:56.674 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name is >>Email and address is >> (//input[@id='email'])[1] and values is >> l5344052@gmail.com
+15:18:57.576 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd in the input field: Email with iteration count: 0
+15:18:57.788 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Element name is >>Password and address is >> (//input[@id='password'])[1] and values is >> Qwer4321!
+15:18:58.592 [main] INFO  com.leonardoAI.utilities.SetDataIntoTextInputField - Value Enteterd in the input field: Password with iteration count: 1
+15:18:58.797 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: Login
+15:18:58.797 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Submit and >> //button[normalize-space()='Sign in']
+15:18:59.330 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicked on button >> Submit
+15:19:05.939 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - clicke on btnCloseModel
+15:19:07.212 [main] INFO  com.leonardoAI.pageObject.PO_LoginPage - ...LOGIN DONE...
+15:19:07.283 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - Method called: Logout
+15:19:09.284 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: UserLogout
+15:19:09.285 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> User Menus and >> (//button[starts-with(@id,'menu-button')])[1]
+15:19:09.912 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicked on button >> User Menus
+15:19:10.915 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Method called 'callMeToClickOnAnyButtonWithNameAndXpath' and Caller method name: UserLogout
+15:19:10.915 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - Element name and xpath >> Logout and >> (//button[@value='LogoutMenuItem'])[1]
+15:19:11.480 [main] INFO  com.leonardoAI.utilities.ClickOnAnyButton - clicked on button >> Logout
+15:19:13.459 [main] INFO  com.leonardoAI.pageObject.PO_HomePage - ... LOGOUT DONE ...
+15:19:13.611 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+15:19:14.021 [main] INFO  com.leonardoAI.testCases.TC_Home - Driver shutdown

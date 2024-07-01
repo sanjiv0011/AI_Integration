@@ -146,19 +146,19 @@
 &lt;suite thread-count=&quot;1&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;parameter name=&quot;wantToBlockAdsAndNotifications&quot; value=&quot;true&quot;/&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;enableDebuggerMode&quot; value=&quot;false, 9222&quot;/&gt;
   &lt;parameter name=&quot;incognitoMode&quot; value=&quot;false&quot;/&gt;
-  &lt;parameter name=&quot;enableDisableDebuggerMode&quot; value=&quot;true, 9222&quot;/&gt;
   &lt;parameter name=&quot;headerLessBrowsing&quot; value=&quot;false&quot;/&gt;
   &lt;parameter name=&quot;loginUserType&quot; value=&quot;user&quot;/&gt;
-  &lt;parameter name=&quot;wantToByPassLoginLogout&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;wantToByPassLoginLogout&quot; value=&quot;false&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.leonardoAI.utilities.ExtentReport&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;JKL Assets Managemant&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;LeonardoAI&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.leonardoAI.testCases.TC_Home&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- JKL Assets Managemant --&gt;
+  &lt;/test&gt; &lt;!-- LeonardoAI --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -170,7 +170,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">JKL Assets Managemant (1 class)</span>
+                <span class="test-name">LeonardoAI (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -200,12 +200,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_HomePageElement')
 data.setCell(0, 2, 'com.leonardoAI.testCases.TC_Home')
-data.setCell(0, 3, 107);
+data.setCell(0, 3, 12);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 107 ms</span>
+              <span class="suite-total-time">Total running time: 12 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -233,30 +233,28 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.leonardoAI.testCases.TC_Home</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">browserSettingAndLoginLogout(org.testng.TestRunner@604d23fa)</span>
+                <span class="method-name">browserSettingAndLoginLogout(org.testng.TestRunner@4c5da4f9)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">Setup(chrome)</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-start">41 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">Login(user)</span>
-                <span class="method-start">3206 ms</span>
+                <span class="method-start">8340 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_HomePageElement</span>
-                <span class="method-start">3235 ms</span>
+                <span class="method-start">20979 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">Logout(user)</span>
-                <span class="method-start">3370 ms</span>
+                <span class="method-start">21022 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">3374 ms</span>
+                <span class="method-start">27202 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
