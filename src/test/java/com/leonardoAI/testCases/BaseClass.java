@@ -84,7 +84,7 @@ public class BaseClass {
 		// TO DISABLE ADS AND NOTIFICATIONS
 		String paramWantToBlockAdsAndNotifications = context.getCurrentXmlTest()
 				.getParameter("wantToBlockAdsAndNotifications");
-		incognitoMode = Boolean.parseBoolean(paramWantToBlockAdsAndNotifications);
+		wantToBlockAdsAndNotifications = Boolean.parseBoolean(paramWantToBlockAdsAndNotifications);
 		logger.info("wantToBlockAdsAndNotifications: " + wantToBlockAdsAndNotifications);
 
 	}

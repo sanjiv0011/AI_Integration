@@ -10,10 +10,11 @@ public class CustomizedChromeOptions {
 	// POP-BLOCKING, TO RUN INTO INCOGNITO MODE, OR HEADER LESS BROWSING, OR RUN IN
 	// THE DEBUGGER MODE.
 	public Logger logger = LogManager.getLogger(this.getClass());
-
+	
+	boolean wantToRunFromGitHub = true;
 	public ChromeOptions customizedChromeOptions(boolean blockAdsAndNotifications, boolean headlessBrowsing,
 			boolean incognitoMode, boolean debuggerMode, int debuggerPort) {
-		
+
 		// TO INITIALIZE CHROME OPTIONS
 		ChromeOptions options = new ChromeOptions(); // Use the correct class name and variable
 
@@ -39,10 +40,18 @@ public class CustomizedChromeOptions {
 
 		if (debuggerMode) {
 			// TO USE CHROME DRIVER IN DEBUGGER MODE
-			options.setExperimentalOption("debuggerAddress", "localhost:"+debuggerPort);
-			logger.info("Entered into Debugging mode with port:"+debuggerPort);
+			options.setExperimentalOption("debuggerAddress", "localhost:" + debuggerPort);
+			logger.info("Entered into Debugging mode with port:" + debuggerPort);
 		}
-		
+
+		if(wantToRunFromGitHub) {
+			options.addArguments("--headless");
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--remote-allow-origins=*");
+			options.addArguments("--incognito");
+		}
+
 		return options;
 	}
 }
