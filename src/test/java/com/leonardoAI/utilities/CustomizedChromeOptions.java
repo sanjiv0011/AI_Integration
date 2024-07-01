@@ -10,48 +10,80 @@ public class CustomizedChromeOptions {
 	// POP-BLOCKING, TO RUN INTO INCOGNITO MODE, OR HEADER LESS BROWSING, OR RUN IN
 	// THE DEBUGGER MODE.
 	public Logger logger = LogManager.getLogger(this.getClass());
-	
+
 	boolean wantToRunFromGitHub = true;
+//	public ChromeOptions customizedChromeOptions(boolean blockAdsAndNotifications, boolean headlessBrowsing,
+//			boolean incognitoMode, boolean debuggerMode, int debuggerPort) {
+//
+//		// TO INITIALIZE CHROME OPTIONS
+//		ChromeOptions options = new ChromeOptions(); // Use the correct class name and variable
+//
+//		if (blockAdsAndNotifications) {
+//			// Disable pop-ups and intrusive ads
+//			options.addArguments("--disable-popup-blocking");
+//			options.addArguments("--disable-notifications");
+//			options.addArguments("--disable-ads");
+//			logger.info("Disabled Ads and Notifications");
+//		}
+//
+//		if (headlessBrowsing) {
+//			// FOR HEADER LESS BROWSING
+//			options.addArguments("--headless");
+//			logger.info("Entered into headless browsing");
+//		}
+//
+//		if (incognitoMode) {
+//			// TO OPEN CHROME DRIVER INTO INCOGNITO MODE
+//			options.addArguments("--incognito");
+//			logger.info("Entered into incognito mode");
+//		}
+//
+//		if (debuggerMode) {
+//			// TO USE CHROME DRIVER IN DEBUGGER MODE
+//			options.setExperimentalOption("debuggerAddress", "localhost:" + debuggerPort);
+//			logger.info("Entered into Debugging mode with port:" + debuggerPort);
+//		}
+//
+//		if(wantToRunFromGitHub) {
+//			options.addArguments("--headless");
+//			options.addArguments("--no-sandbox");
+//			options.addArguments("--disable-dev-shm-usage");
+//			options.addArguments("--remote-allow-origins=*");
+//			options.addArguments("--incognito");
+//		}
+//
+//		return options;
+//	}
+
 	public ChromeOptions customizedChromeOptions(boolean blockAdsAndNotifications, boolean headlessBrowsing,
 			boolean incognitoMode, boolean debuggerMode, int debuggerPort) {
 
-		// TO INITIALIZE CHROME OPTIONS
-		ChromeOptions options = new ChromeOptions(); // Use the correct class name and variable
+		ChromeOptions options = new ChromeOptions();
 
 		if (blockAdsAndNotifications) {
-			// Disable pop-ups and intrusive ads
 			options.addArguments("--disable-popup-blocking");
 			options.addArguments("--disable-notifications");
-			options.addArguments("--disable-ads");
 			logger.info("Disabled Ads and Notifications");
 		}
 
-		if (headlessBrowsing) {
-			// FOR HEADER LESS BROWSING
-			options.addArguments("--headless");
-			logger.info("Entered into headless browsing");
+		if (headlessBrowsing || wantToRunFromGitHub) { // Ensure headless mode for CI
+			options.addArguments("--headless=new"); // Use the newer headless mode if supported
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--remote-allow-origins=*");
 		}
 
-		if (incognitoMode) {
-			// TO OPEN CHROME DRIVER INTO INCOGNITO MODE
+		if (incognitoMode || wantToRunFromGitHub) {
 			options.addArguments("--incognito");
 			logger.info("Entered into incognito mode");
 		}
 
 		if (debuggerMode) {
-			// TO USE CHROME DRIVER IN DEBUGGER MODE
 			options.setExperimentalOption("debuggerAddress", "localhost:" + debuggerPort);
 			logger.info("Entered into Debugging mode with port:" + debuggerPort);
 		}
 
-		if(wantToRunFromGitHub) {
-			options.addArguments("--headless");
-			options.addArguments("--no-sandbox");
-			options.addArguments("--disable-dev-shm-usage");
-			options.addArguments("--remote-allow-origins=*");
-			options.addArguments("--incognito");
-		}
-
 		return options;
 	}
+
 }

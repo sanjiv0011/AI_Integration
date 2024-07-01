@@ -19,13 +19,23 @@ jobs:
         java-version: '22'
         distribution: 'adopt'
 
-    - name: Set up Chrome
-      run: sudo apt-get install -y google-chrome-stable
+    - name: Install Chrome and dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        sudo apt-get install -y libnss3-dev libgconf-2-4
+        google-chrome --version
+
+    - name: Verify ChromeDriver installation
+      run: |
+        chromedriver --version
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
     - name: Run tests
-      run: mvn test
+      run: |
+        Xvfb :99 &
+        mvn test
       env:
         DISPLAY: :99.0
